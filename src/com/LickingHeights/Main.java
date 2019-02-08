@@ -26,6 +26,11 @@ public class Main {
         else if (thirdNumber<=secondNumber){
             System.out.println(thirdNumber+ " is less than and equal to " + secondNumber);
         }
+        if (secondNumber==firstNumber){
+            System.out.println(secondNumber+ " is equal to " + firstNumber);
+        }
+
+        
 
 
     }
