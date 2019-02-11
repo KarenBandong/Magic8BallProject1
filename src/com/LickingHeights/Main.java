@@ -70,7 +70,7 @@ public class Main {
             System.out.println("Outlook not so great");
         }
         if (number>=91 && number<=100){
-            System.out.println("It is certain");
+            System.out.println("It is decidedly so");
         }
 
 
