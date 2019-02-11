@@ -42,7 +42,7 @@ public class Main {
         question= keyboard.nextLine();
         System.out.println("Now please give me a number from 1-100");
         number= keyboard.nextInt();
-        else if (number>= 1 && number<=10){
+        if (number>= 1 && number<=10){
             System.out.println("Most likely");
         }
         else if (number>=11 && number<=20){
