@@ -50,11 +50,11 @@ public class Main {
         else if (number>=91 && number<=100){
             System.out.println("It is decidedly so");
         }
+        else if (number>=101 && number<=110);{
+            System.out.println("Please ask again later");
+        }
 
-        System.out.println("It is also welcome if you ask me a question with an \"or\" on it");
-        question= keyboard.nextLine();
-        System.out.println("Now please give me a number from 1-100");
-        number= keyboard.nextInt();
+
 
 
 
