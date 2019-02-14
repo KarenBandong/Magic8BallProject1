@@ -51,6 +51,12 @@ public class Main {
             System.out.println("It is decidedly so");
         }
 
+        System.out.println("It is also welcome if you ask me a question with an \"or\" on it");
+        question= keyboard.nextLine();
+        System.out.println("Now please give me a number from 1-100");
+        number= keyboard.nextInt();
+
+
 
         // Ask them their name
         // Make them ask a yes/no question
