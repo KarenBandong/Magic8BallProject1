@@ -9,32 +9,10 @@ public class Main {
         int firstNumber, secondNumber, thirdNumber, number;
         String userName, question;
 
-        firstNumber= 30;
-        secondNumber= 50;
-        thirdNumber= 10;
+
         Scanner keyboard = new Scanner(System.in);
 
 
-
-
-        if (firstNumber==secondNumber){
-            System.out.println(firstNumber+ " is greater than " + secondNumber);
-        }
-        else {
-            System.out.println(firstNumber+ " is less than " + secondNumber);
-        }
-        if (thirdNumber==firstNumber){
-            System.out.println(thirdNumber+ " is greater than and equal to" + firstNumber);
-        }
-        else if (thirdNumber==secondNumber){
-            System.out.println(thirdNumber+ " is equal to " + secondNumber);
-        }
-        else if (thirdNumber==secondNumber){
-            System.out.println(thirdNumber+ " is less than and equal to " + secondNumber);
-        }
-        if (secondNumber==firstNumber){
-            System.out.println(secondNumber+ " is equal to " + firstNumber);
-        }
         System.out.println("Hi what is your name?");
         userName=keyboard.nextLine();
         System.out.println("Hi "+ userName+ "!");
