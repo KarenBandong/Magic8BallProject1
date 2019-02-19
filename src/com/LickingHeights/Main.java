@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// PHASE 1 and 2
-        int firstNumber, secondNumber, thirdNumber, number, option;
+        int  number, option;
         String userName, question1, question2;
 
 
@@ -29,13 +29,10 @@ public class Main {
         }else {
             System.out.println("Please state an action that you want to do");
             question1 = keyboard.nextLine();
-           // System.out.println("Now please give me a number from 1-100");
-           // number = keyboard.nextInt();
             System.out.println("Please another action that you want to do");
             question2 = keyboard.nextLine();
-
-
-            System.out.println("I will now tell you what is the better option");
+            System.out.println("I will now tell you what is the better option; however, please provide me with a number from 1-100");
+            number= keyboard.nextInt();
 
             String bestOption = orAnswer(question1,question2);
 
@@ -45,7 +42,7 @@ public class Main {
 
         }
 
-        
+
 
 
 
