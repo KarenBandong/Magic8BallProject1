@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 
+
     public static void main(String[] args) {
 	// PHASE 1 and 2
         int  number, option;
@@ -31,9 +32,7 @@ public class Main {
             question1 = keyboard.nextLine();
             System.out.println("Please another action that you want to do");
             question2 = keyboard.nextLine();
-            System.out.println("I will now tell you what is the better option; however, please provide me with a number from 1-100");
-            number= keyboard.nextInt();
-
+            System.out.println("I will now tell you what is the better option");
             String bestOption = orAnswer(question1,question2);
 
             System.out.println("The best option to do would be the "+ bestOption);
